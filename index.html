@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Puspita</title>
+  <link rel="icon" href="images/blackCat.png" type="image/png">
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- ------- FONTS ------- -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Laila:wght@300;400;500;600;700&family=Luckiest+Guy&family=Outfit:wght@100..900&family=Pacifico&family=Pangolin&family=Playpen+Sans:wght@100..800&family=RocknRoll+One&family=Satisfy&family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- ================ HEADER ================ -->
+  <header>
+    <!-- ------- SOCIAL MEDIA ------- -->
+    <div class="header-left">
+      <h1>Aura Puspita</h1>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/laisseraimotsdes/" target="_blank" class="social insta"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@laisseraimotsdes" target="_blank" class="social yt"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/aura-puspita-56776330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/apusrta" target="_blank" class="social github"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    
+    <!-- ------- NAVIGATION ------- -->
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#penjualan">Penjualan Daging</a></li>
+        <li><a href="#callCenter">Call Center</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================ SECTION BERANDA ================ -->
+  <section id="beranda">
+    <!-- ------- DECORATIONS ------- -->
+    <img src="images/cuteDog.png" alt="Cute Dog" class="dog-decor">
+    <img src="images/lovePixel.png" alt="Love" class="love love1">
+    <img src="images/lovePixel.png" alt="Love" class="love love2">
+    <img src="images/lovePixel.png" alt="Love" class="love love3">
+
+    <canvas id="bubbleCanvas"></canvas>
+
+    <div class="content-wrapper">
+      <!-- ------- VIDEO PLAYER ------- -->
+      <div class="laptop-container">
+        <img src="images/laptop2.png" alt="Laptop" class="laptop-img">
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/IxmYtwXT2uE?autoplay=1&mute=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- ------- TYPEWRITER ------- -->
+      <div class="text-container">
+        <h1 class="headline"><span id="headline"></span><span class="cursor"></span></h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================ SECTION TENTANG ================ -->
+  <section id="tentang">
+    <!-- ------- DECORATIONS ------- -->
+    <img src="images/selfCartoon.png" alt="Self Cartoon" class="cartoon-decor">
+    <img src="images/star.png" alt="Star" class="star">
+    <img src="images/garisPutus.png" alt="Garis Putus" class="garisPutus">
+    <img src="images/catCute.png" alt="Cat" class="cat-decor">
+
+    <canvas id="bubbleCanvasTentang"></canvas>
+
+    <!-- ------- ABOUT ME TEXT ------- -->
+    <div class="text-container-beranda">
+      <p class="intro">
+        Perkenalkan, saya <strong>Aura</strong>.<br>
+        Saya lahir tahun 2008 dan saat ini berada di kelas 12. Di kampung, saya membantu ayah saya mengurus beberapa sapi dan menjalankan usaha penjualan daging sapi (jika kamu berminat untuk beli, silakan hubungi saya!). Saya juga senang mempelajari hal-hal baru, terutama di bidang <u>teknologi dan desain</u>. Di waktu senggang, saya biasanya bermain <i>game</i>, membaca komik, atau sekadar beristirahat.
+      </p>
+    </div>
+
+    <!-- ------- IMAGES STACK ------- -->
+    <div class="image-stack">
+      <img src="images/hello steve.jpeg" alt="1">
+      <img src="images/cow1.jpg" alt="2">
+      <img src="images/cat.jpg" alt="3">
+    </div>
+  </section>
+
+  <!-- ================ SECTION PENJUALAN ================ -->
+  <section id="penjualan">
+    <!-- ------- DECORATIONS ------- -->
+    <img src="images/flower.png" alt="flower" class="flower">
+    <img src="images/blackCat.png" alt="black cat" class="black-cat-decor">
+    <img src="images/loveYellow.png" alt="Love" class="love love1">
+    <img src="images/loveYellow.png" alt="Love" class="love love2">
+    <img src="images/loveYellow.png" alt="Love" class="love love3">
+    <div class="sapi-wrapper">
+      <div class="judul-penjualan">
+        <p>Nikmati daging sapi pilihan dengan kualitas premium, segar setiap hari, dan harga bersahabat!</p>
+      </div>
+      <img src="images/sapi.png" alt="Sapi" class="sapi-decor">
+    </div>
+
+    <canvas id="bubbleCanvasPenjualan"></canvas>
+
+    <!-- ------- MEAT TABLE ------- -->
+    <table class="tabel-daging">
+      <thead>
+        <tr>
+          <th>Gambar</th>
+          <th>Potongan Daging</th>
+          <th>Cocok untuk</th>
+          <th>Harga per Kg</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="images/sirloin.jpg" alt="Daging Has Besar" /></td>
+          <td><strong>Sirloin</strong></td>
+          <td>
+            <ul>
+              <li>Steak</li>
+              <li>Panggang</li>
+              <li>Sauté</li>
+            </ul>
+          </td>
+          <td>Rp 105.000</td>
+        </tr>
+        <tr>
+          <td><img src="images/brisket.jpg" alt="Has Luar" /></td>
+          <td><strong>Brisket</strong></td>
+          <td>
+            <ul>
+              <li>Rebus</li>
+              <li>Sup</li>
+              <li>Slow cook</li>
+            </ul>
+          </td>
+          <td>Rp 125.000</td>
+        </tr>
+        <tr>
+          <td><img src="images/tanderloin.jpg" alt="Has Dalam" /></td>
+          <td><strong>Tanderloin</strong></td>
+          <td>
+            <ul>
+              <li>Steak</li>
+              <li>Stir fry</li>
+              <li>Grill</li>
+            </ul>
+          </td>
+          <td>Rp 120.000</td>
+        </tr>
+        <tr>
+          <td><img src="images/iga.jpg" alt="Sengkel" /></td>
+          <td><strong>Iga</strong></td>
+          <td>
+            <ul>
+              <li>BBQ</li>
+              <li>Sup</li>
+              <li>Rebus</li>
+            </ul>
+          </td>
+          <td>Rp 115.000</td>
+        </tr>
+        <tr>
+          <td><img src="images/tetelan.jpg" alt="Sengkel" /></td>
+          <td><strong>Tetelan</strong></td>
+          <td>
+            <ul>
+              <li>Sup</li>
+              <li>Semur</li>
+              <li>Kaldu</li>
+            </ul>
+          </td>
+          <td>Rp 85.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================ SECTION CALL CENTER ================ -->
+  <section id="callCenter">
+    <!-- ------- DECORATIONS ------- -->
+    <img src="images/personGreen.png" alt="cartoon" class="green-person-decor">
+    <img src="images/greenPerson2.png" alt="cartoon" class="green-person-2-decor">
+
+    <canvas id="bubbleCanvasCallCenter"></canvas>
+
+    <!-- ------- LOGIN CARD ------- -->
+    <div class="card-container">
+      <div class="card active" id="loginCard">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label>Username / Email</label>
+          <input type="text" required>
+          <label>Password</label>
+          <input type="password" required>
+          <div class="remember">
+            <label>
+              <input type="checkbox" id="rememberMe">
+              Remember Me
+            </label>
+          </div>
+          <button type="submit">Login</button>
+          <p>
+            <a href="#resetCard" onclick="showCard('resetCard')">Lupa Password?</a>
+          </p>
+          <p>
+            Belum punya akun? 
+            <a href="#registerCard" onclick="showCard('registerCard')">Register</a>
+          </p>
+        </form>
+      </div>
+
+      <!-- ------- RESET ACCOUNT CARD ------- -->
+      <div class="card" id="resetCard">
+        <h2>Reset Password</h2>
+        <form id="resetForm">
+          <label>Masukkan Email Anda</label>
+          <input type="email" placeholder="contoh123@email.com" required>
+          <button type="submit">Kirim Link Reset</button>
+          <p>
+            <a href="#loginCard" onclick="showCard('loginCard')">Kembali ke Login</a>
+          </p>
+        </form>
+      </div>
+
+      <!-- ------- REGISTER CARD ------- -->
+      <div class="card" id="registerCard">
+        <h2>Register</h2>
+        <form id="registerForm">
+          <label>Nama Lengkap</label>
+          <input type="text" required>
+          <label>Username</label>
+          <input type="text" required>
+          <label>Email / No HP</label>
+          <input type="email" required>
+          <label>Password</label>
+          <input type="password" required>
+          <label>Konfirmasi Password</label>
+          <input type="password" required>
+          <button type="submit">Sign Up</button>
+          <p>
+            Sudah punya akun? 
+            <a href="#loginCard" onclick="showCard('loginCard')">Login</a>
+          </p>
+        </form>
+      </div>
+    
+      <!-- ------- NOTIFICATION ------- -->
+      <div id="notification"></div>
+
+      <!-- ------- CALL CENTER CARD ------- -->
+      <div class="card" id="callCenterCard">
+        <h2>Call Center</h2>
+        <form id="contactForm">
+          <label>Nama Lengkap</label>
+          <input type="text" required>
+          <label>Email / No HP</label>
+          <input type="text" required>
+          <label>Pesan</label>
+          <textarea rows="3" required></textarea>
+          <label>Lampiran (opsional)</label>
+          <input type="file">
+          <button type="submit" class="btn">Kirim</button>
+          <p class="exit-link">
+            <a href="#" id="backToLogin">Kembali ke Login</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
